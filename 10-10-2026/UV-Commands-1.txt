@@ -9,7 +9,7 @@ Example : uv venv --python 3.12
 *Creates the environment in a specific permanent folder, mimicking Conda. Best for Jupyter, exploring, and daily development.*
 Syntax  : uv venv --python 3.xx 
 Example : uv venv --python 3.12 C:\envs\FDE1
-# uv venv --python 3.12 D:\uv-env\FDE1
+# uv venv --python 3.12 D:\SJP\uv-env\FDE1
 
 # Activating the uv environment
 
@@ -20,7 +20,7 @@ Syntax (Unix/Mac-os) : source .venv/bin/activate
 **For Global environments:**
 Syntax (Windows)     : \Scripts\activate
 Example (Windows)    : C:\envs\FDE1\Scripts\activate
-# D:\uv-env\FDE1\Scripts\activate
+# D:\SJP\uv-env\FDE1\Scripts\activate
 Example (Unix/Mac-os): source ~/envs/FDE1/bin/activate
 
 # Run python file (.py) using uv
